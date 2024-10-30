@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Website</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+    <!-- Icon to trigger chatbot -->
+<div id="chat-icon" onclick="openChat()">
+    <div id="chat-icon" style="position:fixed; bottom:20px; right:20px; font-size:40px; cursor:pointer;">💬</div>
+</div>
+
+<!-- Modal with iframe for chatbot -->
+<div id="chat-modal" style="display:none;">
+    <iframe src="https://www.chatbase.co/chatbot-iframe/kRQ3YJPcjgVY82Zmj43Ar" width="400" height="600"></iframe>
+    <button onclick="closeChat()">Close</button>
+</div>
+
+    <script src="chat.js"></script>
+</body>
+</html>
