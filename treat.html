@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="treat.css">
+</head>
+<body>
+    <header>
+        <!-- Left side: Website name/logo -->
+        <div class="logo">
+            <a href="index.html">Healthcare Platform</a>
+        </div>
+    
+         <nav>
+            <a href="#">Find Doctors</a>
+            <a href="#">Lab Tests</a>
+            <a href="surgery.html">Surgeries</a>
+            <a href="medicine.html">Medicine</a>
+            <a href="reels.html">Video</a>
+        </nav>
+    
+        <!-- Right side: Login and Sign Up buttons -->
+        <div class="auth-buttons">
+            <a href="login.html">Login/Sign Up</a>
+            
+        </div>
+       
+    </header>
+
+    <div class="container">
+        <!-- Search Bar Section -->
+        <div class="search-bar-container">
+            <div class="search-bar">
+              <img src="https://img.icons8.com/ios-filled/50/000000/search.png" class="search-icon" alt="Search Icon">
+              <input type="text" list="search-options" placeholder="Search for medicine, health product, and more">
+              <datalist id="search-options">
+                  <option value="Asthma">
+                  <option value="COPD">
+                  <option value="Bronchitis">
+                  <option value="Emphysema">
+                  <option value="Lung Cancer">
+                  <option value="Bronchiectasis">
+                  <option value="Pneumonia">
+                  <option value="Pleural Effusion">
+                  <option value="Tuberculosis">
+                  <option value="Respiratory syncytial virus(RSV)">
+              </datalist>
+            </div>
+          </div>
+      
+        <!-- Image Slider Section -->
+        <div class="slider">
+          <div class="slides" id="slides">
+            <div class="slide" style="background-image: url('https://www.lahey.org/-/media/hero/lahey/lhmc-patients-visitors-1920x560px.jpg');"></div>
+            <div class="slide" style="background-image: url('https://www.choa.org/-/media/Images/Childrens/global/heros/patients/during-your-stay/patient-girl-with-puzzle-in-pediatric-hospital-1440x748.jpg?h=748&la=en&w=1440&hash=8ABB2D5DFB87F45ABBA5F964A40165690E96E9BA');"></div>
+            <div class="slide" style="background-image: url('https://www.chenmed.com/sites/default/files/2020-06/shutterstock_1636004281.jpg');"></div>
+          </div>
+        </div>
+      </div>
+
+      <p>Browse your Illness</p>
+
+      <!-- Health Condition Section -->
+      <div class="section">
+        <div class="image-grid">
+          <a href="asthma.html">
+            <img src="https://www.science.org/do/10.1126/science.aap8401/full/iStock-184291913_16x9-1644902861107.jpg" alt="Asthma">
+            <p>Asthma</p>
+          </a>
+          <a href="copd.html">
+            <img src="https://www.chenmed.com/sites/default/files/styles/blog_post_teaser/public/2024-02/Understanding%20Healthcare%20Hesitancy%20in%20Black%20Americans.jpg?itok=VTq1_PRY" alt="COPD">
+            <p>COPD</p>
+          </a>
+          <a href="pneumonia.html">
+            <img src="https://www.partnermd.com/hubfs/doctors-and-patient-at-reception-desk.jpg_s=1024x1024%26w=is%26k=20%26c=GJRJhmLCXk98wGSxpLF4OGTEtbaElUrrwb1LN7jDIwI=%20%281%29.jpg" alt="Pneumonia">
+            <p>Pneumonia</p>
+          </a>
+          <a href="pleural-effusion.html">
+            <img src="https://www.taylor.com/hubfs/_Taylor.com%20-%20All%20file%20connected%20%20to%20main%20site%20and%20blogs/Blogs/Taylor%20-%20Blog/Patient%20Engagement%20Strategies%20That%20Work/Blog%20Hero%20Image%20%E2%80%93%20Patient%20Engagement.jpg" alt="Pleural Effusion">
+            <p>Pleural Effusion</p>
+          </a>
+          <a href="tuberculosis.html">
+            <img src="https://health.ucdavis.edu/media-resources/medical-center/images/Marquee/2023-07-13_In-patient369.jpg" alt="Tuberculosis">
+            <p>Tuberculosis</p>
+          </a>
+        </div>
+      </div>
+      
+      <div class="section">
+        <div class="image-grid">
+          <a href="rsv.html">
+            <img src="https://www.chenmed.com/sites/default/files/2020-06/shutterstock_1636004281.jpg" alt="Respiratory syncytial virus(RSV)">
+            <p>RSV</p>
+          </a>
+          <a href="bronchiectasis.html">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhUSEhMWFRUVGBgYFRgYFRUVFRUXFRcXFhUVFhYYHSggGBolHhYVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy0gHyUvMS0rKy0tLS0tLS0tLS0tLSstLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKMBNgMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAFAAIDBAYHAQj/xABGEAABAwEFBQUEBwYEBQUAAAABAAIRAwQFEiExBkFRYXETIoGRoTJCscEHFCNictHwJDNSgrLhc5Ki8RUWQ8LSNURTY7P/xAAaAQACAwEBAAAAAAAAAAAAAAABAwACBAUG/8QAMBEAAgIBBAEACQMEAwAAAAAAAAECAxEEEiExQRMiMlFhcYGRsQUj8EKh0eEUM1L/2gAMAwEAAhEDEQA/AN2LYCnvrnIBhfOsbhxWHsN5uxZlaq77cJBOmh5KyeRUlgI1LNJjCf8AKfjCp17qfq1rvIrQstrGtxFwAGpkFSU73pESHgjlJRyDajEVQ9uRCjbU5+a0Drcyq7C9sEnunh1VSrZGkuG9pg9VZPJXDRWY7JG7naOycTnLvgs/XsTm+yclo7np/s7ZyzJ9UQIIWMd4dUMtJBpO5PcMstCR8kUsje8Oo+IQa1tPYvgwe0q7svacp5LeAjUofsgbAJ7F0TxLRGvislZHw0LR37aIstRvCm0T1wj5rNWcCAjFAkTh/DIKWnasOnkfzUEKN6LiVi9ryi7aBTq+23P9b1Rfis9SkaTzhe9rS0mcipabxuVW9mw+gZ/6gVM44BO1uXJ0AuyCq2x2QTw7IKta3aKDSWk9Oe/RVabk57lCBHGg+0V8CgzdiOk7t0ngERD8lzL6Y6FeKdWkHFgEPw6tzcQ4xu57oVX0WjywRfd5DF9s4nHlIMYZnjwjzCxVovgsqVATiAgAjLEBkDHH8lQtFrdUEmZH6+SHV3yZ/X6yS+WNPbTVlx4H5pOOLfA6qAuERvSByHirYIKuRMBJzck1zU4ogGBXrE0lwDR3jAbGsnQcpVRso5sxs7WtNqo2b92apnEcoYwFz3Nie8ADA4xooTHB9OVKRbQa1zi5zWtDnHVxAAJPUoQ5HbW3uRwQR4VxLH0UaboEFpIyz2QoRHqF7QDuDqiiH36Ps/FQgBYpaeoUbFIxAAbp6JJtHQJIkOUUTDlobstUZFZxEKDkmt8jZrg1VagKjDBgxl4IrSAawDgAsxd1vzwlaWzVJaOiexJA5zS7ERnorLmjJ29zRPMtyJ9E2owHUJ7qXdZE5F3qQqhI7Q+GOMaInd8us9M6EgE/kglvtRaCGjEd/AdSil2VXGz0y4AGJdnkFE0yBKzSDPT4hAbVVPYOIEzUqnWD7RRSheFIGO0ZJyADhJPALPVrdTbRwOeA7FUhpOZl5AyVgPotbYWkihTYMsThi5gCQD4gHwQujEZq3tYZbRH3/kmOog5aIOSReKbICN4OShfVKsfVXT3Sq9dhHtNPNWU/cVkl54HWepJKr3n+8ofjU9ijOFXvZp7Wj1yV1qI42Nckemk470+DcdpkFXrOlQU68geq9LkshMwr1xTGFOcUCFkOyTa9IOaQU1pUg0UCYO/tl6VSo1gBZ2gdmB3S8QTiHQfFYTaT6NatIzSdjbzyPlvC7ZOaF39b2UYNWGMIgVHewHHLC52jDpBOs8lSeccDamm8M4J/yw9vt7lO252jcF0y3MpGiXEd4mNRumD0IhYq0YWyS4DqVkc5M3KuKRlr2oBsABC8JAkgx0K2IDXZggg+R6cVHeFiDmGdyvGzHDFSqzyjPWCqWRUwEzkDGQXT/ovuJ9orttYkU6D9xaZe4NxNJJkNA4DPTisDYGYRA9wkzvE6Ec1pLFeVSlFSnVdTcTHc7klrW6hsA/rirbsPJMZhtyfQNqHdKB1BmsVY9urSaeb6b3De9g9cEHxTRt6736ILhPda4CcgQRiOnSVrpj6Zeo/p5MF7dL9dfXwbmkEXpeyFgW7a0gGA03Cq8tAZOUOzxF0ZQMyIWlobVWTC0PrNY85FhkuB6Aac0yWnsj2hcbq30w0qV8j7I+CfQvGi/wBiqw/zCfLVe3o37MpTTXYzKfRnGJ4TWBPVSBeh7ISSsp7oXisQ5QrVncqykoFZYvkey218PBWyuyr3B0WLcMlrtnKJqsgOjTPU81oyJaCk+JSqVO4M/ecJHQaK0LuI7oMk6nSG/mVGbsxsDQ5zIJ3CRoMvJKlnPRZGZvXaAWNrnvpzSBjE2HCTlDuBk70Y2cvZ1oa4OphrABHeBJDhOgVKybF4HvJtL6tOpIqU6rWOY8HkAETuHZplmxilLASDnmTrA5AKmXu4j9QYeU88e48sOzFna4VGjvNM6Zgyn3NddKq01HtBIqVAD0qORU2JzZdjPPIQYVPZanNEmT+9q6f4jlpTeCuOQLtXl2PJ59AlQtDeR8UbvnZ9lZkYnAtzadQCdZG9A7Pse/8A+eOjD/5I4jLsilKPRK05qRCLXZK9GoWYg4D3td05jUKK13m6iw1KgGFvtEH5IOuP9IuzM+whaO6JACEW20F1akDuzVmzbQWS0ABtQA8NCqt4UAK1MscHZH4qRivPZeDnGG3PBom1IPVWqTpQinXmDvGqJWR2SLIi21OKjaU+UCxM0qRpUIKlYVCFY6qZjQ7IiQciDoRwULtUnWkNy97UDpvPJWjFyeEVclFZZivpCuinSpHA3DLhGHujCcR0HP58VzF11tJkOz55+Urpm1FrdUp2hjzJbVbE6BgaIjhnPmuY268abHgS6eMEDh4rNfTKuxxN+nthbUpMI2eyBgmSTvJVe9qndgb1JRvJlQQ1wJCDW60lxI4GOqTGLb5GzkksIr2dxNSAYAEmchlH68Fo7tp0zm7E8Dg04RzHkEOuuxtElwmAXOPugNG/juA4lw4opY70fiANE4N5bJI5xvClmWuAV4XZbNipuGOi7CRwmOj2r2rd4rYO1EFp3aHlPDmrFOzNeQ9pIPECJHBwIzU1SvgBncNEqu6cJqSfKGzqjODi+jP065NpfXeI7InC07iMmjzjyKLXTZ2tJrVTifGJxOjeQ5oNXqS+NZIJ5wAArF92vAxtJurs3fJeuqlmtSflZ+55K2OLHBeOPogw++nPY+oRDQYaN5Vix7W17KwU8ePHrTdLmsk+7nLYzEDLyzAVKgZRpg8S7y3/AK3whtnql73VD4cuACtOKl6rRWDcfWR2K5rwbaKbajcpycJnC4aj9biFfK5bsnf31ao1rz9m8w/7vB3hPlK6m5ce6r0cvgdOqzfHPkJ2M90JLyweyklDTladTOaY1OCyGguzktLsTX1bz/JZduaKbLVsNaOK0R6Es6O1+T3eHkPzlSMZAHIKnZ3TTPN5Hm5EN6s0BDKL8tN5UzAo6W/qVIoQ8tB7juhQrZUfYH/Eq/1uRC2H7N/4T8FQ2aI7HL+Op/WUAlmlUJqvE5AacycvgVJSTLPQLXVXGO8RHQDf4kp1FLpi4x5+I2+SlPj4fgyF+1P2h3fwndpnCpWhhe0sqNbUadQd6btHY+2quloMOKDfUajPYe9niSPIpuTOxzNmrM2o2qxrqbmnT2mHwKIWa7SH4w8HkMlQbbrQ3XC8dMJT/wDjbNKlNzDxGY9EdwMBepIIMdUUu9+SzH/EmvIbTqgydDqjNx1ycQO5DOQhxpTwVE0p4KgSYHJSNdAkqEHJVbZaIJbORaMP4s59I8imVV75YKW2bI5Fa7TGf+6GueQC5xl7ong0DRoVV9txCRqBPnp8/JCrZaiXsHNdiqhR4RyLLnLli+tH/ibmz3cstxLmjXjqhe02yrHvPZU2NMkgBgJcM5a0Bw7wIxZ7niNFPTbN6uHAt9GhVdqqpp2ina25mlXNN2cANqZA8veaT9/kqaqpSgm10hultlCbSff8/wBGPvOxVKAgUKjeLjSeAP5iITKlzOo02Vqjml1QSGjMsHM7yun2iqKzSHA9mWw4Ed52PLAG7yfJc3NpqWao1lVoqVKVQta1xlvcPtuA1GhjJcrV6T0STi+H2dbSaz0zkpLDQQZZn02Glgmo5oq1cQ/dsAxUqfiPtD1p72lOuO9Hh7RWpNwPIAc2QW4sgSDMgyN4iU2x3ocb3PdLqs9o4xJxTiPxTbVXhmMaghwjiCCFNFpI6hTcukuPn/PyHW6uWnlCMe2+TR39bMADWQM8+KzVpqzJJ1Rq/wBgfDm+93h0OY9FmrSSFyduGdbdlEdlP2hcdBHoFVY81q5KVWtha7iq101M+pJPOP8AZem09kZVwSPN31SjZOT+hevitiqBg0aAPmfkoqz8IDBqdVWoVZc950BK9sjsTjUOg0Tt2X8/wK2YXy/JLVdhcBwXUvo+vg17OaTz36MN6sPsHwgt8BxXJi6XStLsVbuxtDHbnHA/8L4GfQ4T4JNsPSReC8JbGsnbbvPdSTLvORSXMNxy8JyavVkNBYpnJT3fVw1WnmqrCngRB3p0XwUkuTp111JbH/2fIFF3aj9blzOltRVoNaQxrpMmSRm3u/CESsW3dSoyq80WDsmh8Coe8S4Nj2ctVfKYvo3NPV3X5KRc5P0j1GmXWMweFUH/ALV4PpTG+xVvAtKIMnQLd+7f+F3wKHbKn7D+ep/WVk2fSdSq/ZfVq7TU7gJDcILsgSZ0zTv+erPYAKNZtQucXvBaARBqOG8jPIo+CZ5OgO0Kr0lm7u27oWhuKjSrVJcW4WtaXAhuKTnAEb0TdejWNl4w5EmSO7HEiRvnVAJn67pe8/eKiJUFot9MOAL4xjE0kS0zz3HTI8UmVg72Xsd0cpgqPdTB1AVWvYGHPRWs+B8M1FUqhDBDO2i5PtGuaRk4HgtDssSMQPE/FQB2YU+zfvn7x+KC7CaVpUoUFMqUFWISg5INelQH5eByI8kTrVMLCeAWJ2jt7qdWmBkC09Dnouj+n17m2c/X2bUkR2S0YXvYf4ifDRo8s/5lHWd9s0cxCFW+0Q9tQe8JPUd0/BEaveNnqD+KCuxtwcndktXdTm867uH5AIZtLZu2FpoDWpm38TSHNHm2PFaSyUcNpr1OJPosq+04rSTO9KUFJNPrGBjm4tSXaefsGLjvQVaNN3sENLqsy3AY+0JnXMGDwK5lftuNa1PtA9l7iGbjgbAaT1Alay/CDbnUnyaP1cVDTxubSNTtB33MBwnWTIzWUvIhz3HcdN3SFgurldW0/HHzfvOnppxqsTS7WfkvcMNp0jhn4/2lEKVpxNDUDs4Oc8Y8slds5zQ0MXVWk/PYzW4snn3Grum0mozsn5lp+zdyJnCfl1A3KveNidmIzXlxOIcXROEH4ZKyLd27HZ9+nk7iWnR3xHhzWT9U0cYL00PPf+TT+ma2U5Omfjr/AAZmrQ1ac+KrGn2Qcd0Q3x1B9UWtFPP9fJV61IPaWkZH9Subp9TKp/A6N+nVqAVmLqgDBpq7xOiIVjAFNu7XmV5ZqLKIIdUDSScJIOm85b9yIWSz0okVGu5rvULfBNPs4molsk010V7NZkRp0oE7k9rqY3yo64e/NkOHAajwWtJRXBhcnJ8na9n7R2lJj/42Nd4uaCfiks39F949pQdSd7VExzwOkt9cQ8AvVw7I7ZNHYhLdFMzYTgmBOCwGslpqVQMKnNQJsCkhteniYORPqAo7lo1BQtmJsAmixp4gvLnegCmpk+qKtbFlP3qw/wBLJ+aYkLkD6NLkiVjoAbgq1FqJWVqugFoWduEnCMtMlBaNmKdcB9Wn2hLnAATDRjc/vEZ6OGQjM6onStDKUF8y4wwASSTAnoJGacKjixodFNrcUMBiRlE8MhJnSfBHIUgO67qVlB9mmxrQ9lKm0tbJGbqj5l7h3pn7vOcTf969q4vc6pJ9lgcQMRMBog5AAGYzOSN7SXgxsNpTVc+mW4sUMDD7dQuz1zjdlrpOZsF0l9Rj3ulpJgQRIJl5zzMzwCVOWEXig/sPQc/E6u0VGzljAdnrI8zmj1r2Ns1U4qYNF2vdLsB6t3eHko7DVgQ3QZCNPJS3reQDYee6BmOJ5rEr3nJsdCawZm+rrtFlEio8DcQ8uaeh48jBVayXzXhsvxA8QCr9xjHUq0ML+wqjfBzO9pOQIOm/IZIjV2GcQexqiRnDwWeRkifJbIXJ8PgyToa65KlnvJznQ5rZgnhoj2zTB2fUygFK630Ce1aQ+Izg68CMiOi0Oz2TCOaYJxgONUgKhYVICiQgvInAGgTJz6D9BZLaeiHsxOkFh8eHktZaTJjggN6UpxNO8Eea7WiW2C+5xtZLM39jEv71EwZwO8g4fm0+aM3HVx0gDqxwKAWdmF76Z95rh4t7w+B81e2dr4XuHET5arodmJrBobfaHGpUYDlv8QD81mRlWaOfzRyrUBtL4MhzWkf5QPkg1rpxXafvD4oRWEB8so7ZPw3gOdnY3/U4/JZu0uzRjbqt+3A8GMHkCfmhFXMlc+L9pfE60VxGXwI2hWrJTJOSro/cFixOA8/BMqhllb7Nscl2yO7Kg+o4RkYPFZe6L1FKqKhMtOT/AMJ1PUZHwWi2utcPbRacmCSOLjx6D4lZW8GUgGlgwudMgQW5RoDMa7kvWvdB+5B0K2yy+2aO1MhxGvA7iDvVR68umv2lI0j7VISObeGe5unkvKpheXsrcJOLPSwmpRyitaqLXgtOfDkeKH2ur2Ya1tPq4e8fl0RVzd6gccoKbRqZ1cIXdp42cso02V3aMIHPL4ohZrMW95zjI/hJ+KrlmCTTMfd90+G5PZeDSMyGneCYXY02prsXfPxORqqLIdLj4B/Z7aWpZqhqACSwtO6c2mTuOnqUln6VZhPtDzCSZKEZPLFRnKKwjcr1NK9lcE6w9qVUwV4CnVTkrJgJbM5GP/bN/wAV39DUKuykH1A3FhnfE+krb0dlSaRaKzc3BwlhGgIO88R5J6FNGaohErPlmcgMzyCvN2UrDR9I/wAzgfVqpX/cVYWasMh3CZFRmrc41nOI8VcGAXfG11KmC9hBazutOZxPgYsMatEy4jXQRMjG33tg+uMIJazfI7z98H7uhiAPIIFUpCo1hkkNZOuWcuPhJKH1HF74GTcvhB81RsZg1F2WwOBrVAHFsCmwmZfngLumZJ3kBX6NrGMAmXDQDe7OWt5CRKy922Gu+oKFJpLsIcRIGFoklznGA0aSSd4HBETdVZhzcxw0PZuxQOByEA8RISpyS4ZeMJPlI6JchZgk95xmYIwjli3+HmrosTKjsTo6Z/mgFzE4M4HRW31jORXPb5N6jwHrP2TT05ADwH91UvK8CwuNJzXEjuYm1CGkccLSBxzQl1UhVq9oqtnswXFwgDICeZOgV4zI4eSSk57hiq1O0e7MkAgZTo06f2R25NHDms3ZQ6mWioS4kgTOQLtwbGQ8fBaS5/e6ro1NOPBzb4uM+QuxSBQtKknJMSy8CG8FRj8Tncj6KG3WIvHdMFe1qTaXfLs+A3rIX5tNVcHNpNLW6YvyXfrg/wCno4U5J+12ZPaW9uztLsLRhY/MjOSD3vDUIhY6uGq1w0J9CsnbHazmjV11sVFjt7e6f5THwhXqsbm0xl9KVcWvka9+VZh4sI8nf3VS8XAEOduMqcOxdk4cx5gfkhu0lSAAtD4MMFuwjJ7T2sVK/aCYyAnXLKVHKr3ppKlpGQCuXF/uS+528JVx+HBNQZJW+2es4p0jUdoBKylyWI1Hha3ausKFmFJupELbWsRyc+9757UYy02C02lzq7KT3Nc4wQ1xmCQYwg6QR4IvspcpDqhtNnmA0sNSm4YXA+6XN15Dgtl9HX/p9LrV/wD2qLROXFt1MnJpryduFKSWDg9Gw16FYOax8NcRm1wxN0Oo3hGLbSEyNCAR/tuXW3tXN9r7Y1lqNN0Q4NIOmF0RB5H4rHcvS8pco1Uz2cPozbnxkVHUCntNPNQlqxYNmSND7bZgTKIHIrwgFFcAfJo9hNgadZhr2okseD2bGug5GMbiNNCISW02FY5tjpB33yOhe4j4pLfB+qjnTb3Mz5XoKaV5KxjyQKQnuqEFPboiAbYK8VGnmutXRajhE5iFySnSgzwK6bcFSWDonxKSQfc0OzBgodeFIkEOGohTvkZheiuHZOVip8/7a3a6zPdSAhji5zDuh5lzfB2f8yCNeG+0IgNjlqD6hdw222bFpokZYhmx3A8DyOi4jXsppl7Knde0lrmE5kbjlr1QLJhrZ20MbUq0sUPrMa0E5SWvxFnjn5BGrysrgWOoNIPvnhAPcI3DOfJc/tVIEAkkExBnSNM0cujaOtThryHgb3SHx1Gay3VNvcjZRdFR2yN1d1sDmAGk+nlmXNIaTp3XaHipmaqrTtggOAJ3jvTqPvLxlVwALhHqPAjJZHE15XgIuphPYAN6HC2NOiZWtJVcACjrY1mYAJ6Kxclt7R1TKIIzjIzP5LMtl7g0alam5qPZgt6SeJWzSqWc+DJq3FRx5C7U9xyUTSpCYBJEhb4zUGpPwc5wc1tXky+0d9Uactc+CNd653eu07CMLDly/sulbR3ZYuzn6tSJPeJwAuJ11OYHTVZ8ChUaWmkwAZEYWiI5GFps/VmvVrj9xdf6RH2rGczqVg7MGUV2XrT2lM8nj+l3/ao9obna0mpREDe3hxgbuiO7DbJurUn2vtC0sxtawNBxw2TLpy14blfS6tOak+CarTYrlFfQM3XUljeRHzHzQnaWr3oVy63wXDx+aGbQ5PK7lvs5PP0r9zBn7c3uleXbm0eXlkp6rJBXuzNDG9rfvH4rm4/eXxR13LFLfuOg7IXdhbjPDJAdtLZjqRuC2ropUfBcvvSvie481sm+P7HPpjmf9ze7GbQ2WjY6VKpWa17ceIGcsVV7hu4OCPU9pbI72a7D0K4vTar13NJMDfyXN/4cZyzl8nUlqXGJ1p20Vl0+sU/87fzXMvpEtNOracVJ7XtwNktIInPKRvQ28WAVHAcf90PeZMDQKv8Axo1y4ZaN7mk8E1G1loAdmBod45cwrOMHRDK/BT2cQst2kUnmHZqq1TivWLz2qF9ONFZbTIDXEEBwOGRkYMGDvg5LT7ObMOe4VKwLWDMNIhz+o3N+Pquf6N5wbnZFLJsblpGnZ6LDq2kwHrhE+qSsvdmktiOe3lmJcV5K8JTZWI0kgKmoZlVgVPZ3ZooDClKzStns97IWRs1XJafZoyNU9PgWzSEqGpTVksymVA+oBqiAgxEZLB/SDse20t7akIqs4akcOYW9e8KvUaoRHzdacu44QRqDyjQ79Cq1esJMbtBwGeXqux7ZbGstQNRncqjORkHHnzPrvXI7bdNZjy0jvDIjQ/kUC6NRsjbXOplrjIacunBauywud3FaX0DhqMe0E6ljgB4xELe2JwIHxWC+O2RuplmOAk+yU3DTP9cVVqWGN/mrQBhSATuWfI4oXdQDK2JxgEEcQJ0M7v7rQ0aZa8g7wDyPRArRQkEAozdFuxDBIJaBiB4/xdCt+lsytpi1VfO4ItQy9LwwYhqQNOOiIfikdNPMZoBtG0NcXSDjZAO8FhEjyLfVOvztFab2+TObYX+abWyJLzlwEayql1uNRrXb4k/P1EqttdZzWFBrZLnYsIaJc45CGgKfZKxPY+oypINNuh1GRydw3LLj1cm5v1tpVv8AcGviIyE9V0H6PXN+pU8IjN+L8WIyfgueXpQfXtHZ02lxy06Ceg5rp+zd3fVqDKMyWglx4uccTvCSttXWTn3vnBiLxs3Y2qozcHGOhzb6EIZfjC4haP6RKRpVqVcDu1GlrvxUzkepDh/lQG3nE0OGm5enpsVtKfk81dW6r/gAQwucGDeQPEmFf2DoTXadxxuHSSPkqtlrCnU7U/8ATBf/ADN9geL8A8VotmrL2Jozr2bgeowz6krPCO63PuX5f+jVbPbVj3v8Bnaa2YGEclzas6StLtZbZOFZikJKZa/BTSx4cyZjUbuWhhY+qdwyQqz0y5waNSYRnaO0CjTbZ266u/JCGIrcyW5m1BeTOWytJPElQNbASbxKjdVkw0T8B4rHKXOWbYxwsI9wyVKCmBnH0/NeoBfJ076O7ZisdWkdaVXEOTajRHqxy0AqLA/R1aYq1Wbn0p8abhHo9y2jXrHcsSHQfqluo5JQPekllzIkpkpEppKwmofKlo5nJQAondlCSrJAZcs1F0I1cNR9MmQSDwUlgswRmzWcBNxwKLItpI9l3p+ajqMe7MBW2AKemilgjBHYvUTw9qPOCjNMFEhnn1yEBv66adfvRDuP5raWmwA6IJbbAW5hAKMzcVgqtyOGBoCYcYMHDloiFruwlwNJsvJAdTGpkxIA3qzarL23YgGHNcGE/dc7XnE+pXQbuu1lIAtbnABcc3nq4qTxOOGGDcZZRizsxXazFh6tBBd5DVC3GMjII1EZ+S6q5VqgaNw8hJ6lZnpY+GaFqX5Ryx9gqkgtY/jGF0xx0zCs2a4qwf2jWvYSIMNcJXSXsnP5lObQAzKkdMk85I9S2ujDWax1yYdSeTnniLR55NjlCffGxlW0UwGuYHg4muJwxlEODQQ4HPQN93WDOrqVpMDQblfoeytG3jD5EKeHlcGJuTZF9F5q2iqwwAGtpsEwBGb3CRPLXLNFa1paDhY0NnLIZnhJ3qzfNqjug9UPsLC7Ng6uPy4qJYWECUnJ5Y5130my7s2tc7VzWhrjzMDPxVBzC0/Ao+LEBm4lx9J6D5ofXNQGA0noMvRMi8FGsmY25sPbWF5HtUiKg6Nyf/pLj4Ll1C24WQ490bzuXZb/ALlrWqzvpMe6gXiCQGEO+64OEwfukH4LiN67M2izO/a2PgGA6PsTnAIeMs+GRzzC36W9xW2PZk1FCnyxtgPb1QGg4A4H8bh7PgNeq198u7Pso9yZ8VmLrq9k/HAhug3K3eF5doCV06cRi23y+Tm3pzsSS4XALva0YnkqClkFBVdJU1NIct0sm1R2wSDuz4DA+0O0pCRzecmj9cEBtVR9V5eTmTMnP0Rm+Zp0qVnGp+0qdXeyD0CENG5G3/yLq8z/AJgiNEb5Pw8gnRuC9cYUZckvCHcs9KYV6SlCqyyNHsFUAtUExiY8DmYmPIFbphXMbgtHZ2ik8mAHiTyOTvQldJDsysl65Q2snqP0SUFR2iSSXM4U0pJLCayeg1H7uaF6krxKyNFYtyKsKSSYLLFMqekUkkSEjkkkkSHoUFqYI0SSUIDLtsrDWJLQS3McjOq1dNxhJJQg2o7JMpL1JQg201SNDChsziQSTmkkgEhZqrdd0UnQkkoAzFszcAdCQjtJgDQAIASSURCwFWrN3pJIkG0E00w4ua4AtIzBAIM6gg6r1JWAcK2/u+nZ7bVp0W4GDCQ0EkDFJMSchyWcqHJepLr1vMF8jBZ7bKR1RS5GA1qYIkFw+KSStX7RLvZZ7f1Qms8k5yqI0SSUs9tlKv8AriMcm09UkkryO8HtTVer1JQAxuq6XdVQmlTJMksaSeJLQkks1/SGw7LNU6LxJJILn//Z" alt="Bronchiectasis">
+            <p>Bronchiectasis</p>
+          </a>
+          <a href="emphysema.html">
+            <img src="https://www.aamc.org/sites/default/files/styles/scale_and_crop_1200_x_666/public/d/1/3-hospitalist_patient-story.jpg__992x558_q85_crop-smart_subsampling-2_upscale.jpg?itok=HL_cR-BT" alt="Emphysema">
+            <p>Emphysema</p>
+          </a>
+          <a href="bronchitis.html">
+            <img src="https://www.shutterstock.com/image-photo/elderly-patient-talking-nurse-ward-600nw-2309648671.jpg" alt="Bronchitis">
+            <p>Bronchitis</p>
+          </a>
+          <a href="lung-cancer.html">
+            <img src="https://www.lifehealthcare.co.za/media/3540/patient-participationlife-article-730x488.jpg" alt="Lung Cancer">
+            <p>Lung Cancer</p>
+          </a>
+        </div>
+      </div>      
+
+</div>
+
+  <div class="full-width-image">
+    <img src="4.png" alt="Full Width Image">
+  </div>
+    <script src="treat.js"></script>
+
+    <footer class="footer">
+        <div class="section_container footer_container">
+          <div class="footer__col">
+            <h3>Health<span>Care</span></h3>
+            <p>
+              We are honored to be a part of your healthcare journey and committed
+              to delivering compassionate, personalized, and top-notch care every
+              step of the way.
+            </p>
+            <p>
+              Trust us with your health, and let us work together to achieve the
+              best possible outcomes for you and your loved ones.
+            </p>
+          </div>
+          <div class="footer__col">
+            <h4>About Us</h4>
+            <p>Home</p>
+            <p>About Us</p>
+            <p>Work With Us</p>
+            <p>Our Blog</p>
+            <p>Terms & Conditions</p>
+          </div>
+          <div class="footer__col">
+            <h4>Services</h4>
+            <p>Search Terms</p>
+            <p>Advance Search</p>
+            <p>Privacy Policy</p>
+            <p>Suppliers</p>
+            <p>Our Stores</p>
+          </div>
+          <div class="footer__col">
+            <h4>Contact Us</h4>
+            <p>
+              <i class="ri-map-pin-2-fill"></i> 123, London Bridge Street, London
+            </p>
+            <p><i class="ri-mail-fill"></i> support@care.com</p>
+            <p><i class="ri-phone-fill"></i> (+012) 3456 789</p>
+          </div>
+        </div>
+        <div class="footer__bar">
+          <div class="footer_bar_content">
+            <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+            <div class="footer__socials">
+              <span><i class="ri-instagram-line"></i></span>
+              <span><i class="ri-facebook-fill"></i></span>
+              <span><i class="ri-heart-fill"></i></span>
+              <span><i class="ri-twitter-fill"></i></span>
+            </div>
+          </div>
+        </div>
+  </footer>
+
+</body>
+</html>
